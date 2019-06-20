@@ -4,3 +4,4 @@ module.exports = function () {
             .pipe($.gulp.dest('./build/static/fonts/'));
     });
 };
+/*copy fonts from dir dev to dir build*/

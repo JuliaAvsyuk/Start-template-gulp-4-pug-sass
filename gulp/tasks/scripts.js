@@ -6,6 +6,7 @@ let uglify = require('gulp-uglify'),
     };
 
 module.exports = function () {
+    /* add two libruary libsJSdev & libsJSbuild*/
     $.gulp.task('libsJS:dev', () => {
         return $.gulp.src(['node_modules/svg4everybody/dist/svg4everybody.min.js'])
             .pipe(concat('libs.min.js'))

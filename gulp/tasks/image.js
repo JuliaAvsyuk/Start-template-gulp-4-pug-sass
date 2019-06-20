@@ -13,7 +13,7 @@ module.exports = function () {
         return $.gulp.src(imgPATH.input)
             .pipe($.gulp.dest(imgPATH.ouput));
     });
-
+/*copy img from src to dest*/
     $.gulp.task('img:build', () => {
         return $.gulp.src(imgPATH.input)
             .pipe(cache(imagemin([
@@ -34,3 +34,5 @@ module.exports = function () {
             .pipe($.gulp.dest(imgPATH.ouput));
     });
 };
+/*when build we shrunk imgs with help imageminJpegRecompress*/
+

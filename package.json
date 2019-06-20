@@ -34,7 +34,9 @@
     "imagemin-pngquant": "^6.0.0"
   },
   "dependencies": {
+    "gulp4": "^4.0.2",
     "normalize.css": "^8.0.0",
-    "svg4everybody": "^2.1.9"
+    "svg4everybody": "^2.1.9",
+    "yarn": "^1.16.0"
   }
 }

@@ -24,3 +24,5 @@ module.exports = function () {
             .on('end', $.browserSync.reload);
     });
 };
+
+/*plumber is catch errors*/
